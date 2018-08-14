@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="img/home_banner.jpg" width="100%" height="200px">
+</div>
+
+<div class="container" style="margin-top: -20px">
+    <div class="navbar">
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">HOME</a>
+                </li>
+                <li>
+                    <a href="Rooms%20&%20facilities.html">Rooms&Facilities</a>
+                </li>
+                <li>
+                    <a href="online%20reservation.html">Online Reservation</a>
+                </li>
+                <li>
+                    <a href="admin.html">Admin</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+
+
+<div class="slider-section">
+    <img class="mySlides" src="img/1.jpg" width="94%" height="400px">
+    <img class="mySlides" src="img/2.jpg" width="94%" height="400px">
+    <img class="mySlides" src="img/3.jpg" width="94%" height="400px">
+</div>
+
+
+
+<section>
+    <div class="about-section">
+        <div class="heading">
+            <h1>About</h1>
+            <p>Online hotel reservations are a popular method for booking hotel rooms. Travelers can book rooms on a computer by using online security to protect their privacy and financial information and by using several online travel agents to compare prices and facilities at different hotels</p>
+            <p style="margin-top: 50px;margin-bottom: 50px">Prior to the Internet, travelers could write, telephone the hotel directly, or use a travel agent to make a reservation. Nowadays, online travel agents have pictures of hotels and rooms, information on prices and deals, and even information on local resorts. Many also allow reviews of the traveler to be recorded with the online travel agent.</p>
+            <p>Online hotel reservations are also helpful for making last minute travel arrangements. Hotels may drop the price of a room if some rooms are still available. There are several websites that specialize in searches for deals on rooms.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="contactus">
+        <div class="heading">
+            <h1>Contact Us</h1>
+            <hr width="400px" style="margin-left: 2px">
+            <p>Address : Hyderabad</p>
+            <p>Mail : </p>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="developed">
+        <div class="heading">
+            <h1>Developed By</h1>
+            <hr width="400px" style="margin-left: 2px">
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+
+</body>
+</html>

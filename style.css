@@ -1,0 +1,185 @@
+body{
+    background-image: url("img/background-beautiful-blossom-268533.jpg");
+}
+.container{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:16px 20px;
+    color: white;
+    display: block;
+}
+nav ul li:hover{
+    background-color: lightgray;
+}
+.slider-section{
+    position: absolute;
+    left: 70px;
+    width: 94.5%;
+}
+.about-section{
+    background: rgba(0,0,24,0.47);
+    width: 90%;
+    height: 350px;
+    margin-top: 35%;
+    left: 5%;
+    position: relative;
+}
+.heading{
+    position: relative;
+    left:10px;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+.contactus{
+    background: rgba(0,0,24,0.47);
+    width: 35%;
+    height: 170px;
+    position: relative;
+    left: 5%;
+    color: white;
+    padding: 5px;
+    top: 20px;
+    float: left;
+}
+
+.developed{
+    background: rgba(0,0,24,0.47);
+    width: 35%;
+    height: 170px;
+    position: relative;
+    right: 60px;
+    color: white;
+    padding: 5px;
+    top: 20px;
+    float: right;
+}
+
+.list-1{
+    background-color: rgba(0,0,24,0.47);
+    height: 230px;
+    width: 600px;
+    position: relative;
+    left: 330px;
+    top: 10px;
+}
+.as{
+    color: yellowgreen;
+    top: 20px;
+    left: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.button{
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 60px;
+    background-color: burlywood;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: pink;
+}
+
+.login-back{
+    background-color: rgba(0,0,24,0.47);
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+
+.labe{
+    color: white;
+}
+.input-fields{
+    top: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.button-avail{
+    left: 100px;
+    top: 20px;
+    position: relative;
+    background-color: burlywood;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.button-avail:hover{
+    background-color: pink;
+}
+
+.login-form{
+    background-color: rgba(0,0,24,0.47);
+    height: 470px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+
+.text-white{
+    color: white;
+}
+
+.login-text{
+    position: relative;
+    left: 210px;
+    top: 40px;
+}
+.line{
+ width: 70%;
+
+}
+.username{
+    position: relative;
+    left: 75px;
+    top: 40px;
+}
+.user-box{
+    position: relative;
+    left: 75px;
+}
+
+.login-button{
+    position: relative;
+    left:170px;
+    top: 30px;
+    background-color: steelblue;
+    border: none;
+    padding: 20px 60px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.login-button:hover{
+    background-color: chocolate;
+}
